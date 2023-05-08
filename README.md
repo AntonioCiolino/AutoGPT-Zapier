@@ -46,8 +46,12 @@ ZAPIER_WEBHOOK_ENDPOINT=<your trigger is here>
 
 ## Set up Zapier
 
-Zapier requires a webhooks connector. Create a new applet or modify an existing one, and add Webhooks to the applet. Set up a trigger name that you won't forget; 
-this trigger will be how you get the call into Zapier. Above it is your ```ZAPIER_WEBHOOK_ENDPOINT```
+Zapier requires a webhooks connector.
+1. Create a new Zap or modify an existing one
+2. Add "Catch Hook in Webhooks by Zapier" to the Zap. 
+3. Set it up to Catch Hook.
+Note that there's some trickiness to getting this to work well - you have to post data to it, but you haven't set anything up yet. the test that they provide will post some rudimentary data, but you'll have the ability to process any type of data - so you might have to revisit this page after AutoGPT is configured.
+4. The webhook trigger will be shown to you in the UI. Put it in your ```ZAPIER_WEBHOOK_ENDPOINT``` env variable above.
 
 Once added, you'll have to go to the documentation button to find your specific key. The key will route your json content to you will be posting.
 
