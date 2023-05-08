@@ -1,6 +1,6 @@
 @echo off
 
-set GPT_HOME=.\Auto-GPT
+set GPT_HOME=<your root Auto-GPT>
 
 if "%1" == "clean" (
   echo Removing build artifacts and temporary files...
@@ -52,8 +52,8 @@ exit /b 0
   exit /b 0
 
 :package
-   python -m zipfile -c .\builds\AutoGPT_zapier.zip  src\AutoGPT_zapier
-   copy .\builds\AutoGPT_zapier.zip %GPT_HOME%\plugins
+   python -m zipfile -c .\builds\AutoGPT_Zapier.zip  src\AutoGPT_Zapier
+   copy .\builds\AutoGPT_Zapier.zip %GPT_HOME%\plugins
    python -m autogpt --debug
    exit /b 0
 
