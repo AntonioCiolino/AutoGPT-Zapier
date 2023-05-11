@@ -1,5 +1,5 @@
 # AutoGPT_Zapier
-A webhook connector for If-This-Then-That (Zapier) using the Auto-GPT framework. This plugin allows you to easily integrate Zapier with the powerful language model GPT-4 to create various automations and applications.
+A webhook connector for the Zapier using the Auto-GPT framework. This plugin allows you to easily integrate Zapier with the powerful language model GPT-4 to create various automations and applications.
 
 ## Table of Contents
 
