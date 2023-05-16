@@ -1,4 +1,4 @@
-name: Test installation of plugin against the PR
+name: Test installation of plugin
 on:
   push:
     branches: [ master ]
